@@ -35,7 +35,7 @@ public class HelloWorldStreamHandler extends SkillStreamHandler {
                         new SessionEndedRequestHandler(),
                         new FallbackIntentHandler())
                 // Add your skill id below
-                //.withSkillId("")
+                .withSkillId("amzn1.ask.skill.7a69a1a0-50f6-4558-809b-b267bfa4eda8")
                 .build();
     }
 
